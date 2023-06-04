@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Practicás Simuladas Unad</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <h1>Media Queries</h1>
+    <nav class="nav">
+      <a href="#inicio">Inicio</a></li>
+      <a href="#media">Media Queries</a></li>
+      <a href="#mockup">Mockup</a></li>
+      <a href="#footer">Acerca de.</a></li>
+    </nav>
+  </header>
+
+  <main class="contenedor">
+    <section id="inicio">
+      <h2 class="titulo">Inicio</h2>
+      <p>
+        En la presente página realizaremos una breve explicación de lo que son las Media Queries y con la misma forma de
+        la página trataremos de implementar los conocimientos adquiridos de HTML y CSS.
+      </p>
+    </section>
+    <section class="media-querie" id="media">
+      <h2 class="titulo">Que es una Media Query</h2>
+      <p>
+        Las Media queries le permiten aplicar estilos CSS según el tipo
+        general de un dispositivo (como impresión o pantalla) u otras
+        características como la resolución de la pantalla o el ancho del
+        viewport del navegador. Las media queries se utilizan para lo
+        siguiente:
+      </p>
+    </section>
+    <section class="lista">
+      <ol>
+        <li>
+          Para aplicar estilos condicionalmente utilizando las reglas de
+          arroba CSS @media e @import.
+        </li>
+        <li>
+          Para probar y monitorear los estados de los medios (en-US) usando
+          los métodos Window.matchMedia() y EventTarget.addEventListener().
+        </li>
+      </ol>
+    </section>
+    <section class="responsive" id="media">
+      <h2 class="titulo">Las Media Queries y el diseño responsive</h2>
+      <p>
+        Aunque las Media Queries ya se plantearon en la primera versión de CSS
+        allá por el año 1994, no fue hasta 2012 cuando los navegadores los
+        incorporaron como estándar con la llegada de CSS3 y la recomendación
+        del consorcio W3C. Desde un principio se planteó la necesidad de
+        encontrar una forma de representar el contenido HTML en pantallas con
+        diferentes resoluciones, siempre desde el punto de vista del cliente.
+        El problema se iba agravando a medida que se iban introduciendo
+        pantallas más modernas y con resoluciones mayores, mientras que otros
+        usuarios seguían con resoluciones antiguas.
+      </p>
+    </section>
+    <section>
+      <h2 class="titulo">Tipos de Medios</h2>
+      <p>
+        En la versión CSS3, podemos agregar distintos valores para seleccionar
+        el tipo de medio al que se dirige la regla especificada en una Media
+        Query. Los valores que podemos definir son:
+      </p>
+    </section>
+    <section class="lista">
+      <ol>
+        <li>
+          all: Se utiliza para todos los tipos de medios o dispositivos.
+        </li>
+        <li>print: Se utiliza para impresoras</li>
+        <li>
+          screen: Se utiliza para pantallas de ordenador, tablets, teléfonos
+          móviles, etc…
+        </li>
+        <li>
+          speech: Se utiliza para lectores de pantalla, generalmente
+          utilizados por personas con discapacidad visual.
+        </li>
+      </ol>
+    </section>
+
+    <section class="image">
+      <img src="./img/MEDIA-QUERY.jpg" alt="imagen de media querie" />
+    </section>  
+
+    <section class="mockup">
+      <h2 class="titulo" id="mockup">Mockup</h2>
+      <img src="./img/Mockup.jpg" alt="Mockup" />
+    </section>
+  </main>
+
+  <footer class="footer" id="footer">
+    <section>
+      <p>
+        Acerca de. 
+      </p>
+      <p>
+        Copyright 2023 - Yair Mozo
+      </p>
+    </section>
+  </footer>
+</body>
+
+</html>
