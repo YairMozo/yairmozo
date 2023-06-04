@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Layout Css Grid</title>
+</head>
+<body>
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          <span class="fs-4">Fase 3 Diseño Web UNAD</span>
+        </a>
+  
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#inicio" class="nav-link active" aria-current="page">Inicio</a></li>
+          <li class="nav-item"><a href="./tema.html" target="blank" class="nav-link">Audios</a></li>
+          <li class="nav-item"><a href="./nosotros.html" target="_blank" class="nav-link">Nosotros</a></li>
+          <li class="nav-item"><a href="/Fase_2/index.html" target="_blank" class="nav-link">Media Query</a></li>
+        </ul>
+      </header>
+    
+        <main role="main">
+            
+
+            
+            <div id= inicio class="jumbotron">
+              <div class="container">
+                <h1 class="display-3">Layout Grid!</h1>
+                <p>CSS Grid Layout es un modelo de maquetación CSS en base a una rejilla, algo que podría no parecer tan novedoso, si tenemos en cuenta que diversas librerías de CSS lo habían intentado ya. Sistemas como 960 Grid System fueron pioneros en crear una base de código CSS para que los diseñadores pudieran posicionar los elementos en una distribución de filas y columnas. El propio Bootstrap incluye entre otras cosas un sistema de rejilla.</p>
+              </div>
+            </div>
+      
+      
+            <div class="container">
+              
+              <div class="row">
+                
+                <div class="col-md-4">
+                  <h2>Media Query</h2>
+                  <p>Las Media Queries se utilizan para obtener las características técnicas del dispositivo que solicita la visualización de la página web. Las obtiene solicitando al dispositivo las llamadas Media Features. De esta manera, es posible definir reglas de estilo para diferentes dimensiones de pantalla.</p>
+                  <p><a class="btn btn-secondary" href="/Fase_2/index.html" target="_blank" role="button">Mas detalles »</a></p>
+                </div>
+                <div class="col-md-4">
+                  <h2>Audio</h2>
+                  <p>A continuación encontrarás un audio explicativo donde podrás tener más detalle de lo que son las media query.</p>
+                  <p><a class="btn btn-secondary" href="./tema.html" target="_blank" role="button">Mas detalles »</a></p>
+                </div>
+                <div class="col-md-4">
+                  <h2>Nosotros</h2>
+                  <p>En esta sección podrás encontrar más detalles acerca de las personas que realizaron esta página.</p>
+                  <p><a class="btn btn-secondary" href="./nosotros.html" target="blank" role="button">Mas detalles »</a></p>
+                </div>
+              </div>
+
+              
+      
+              <hr>
+      
+            </div> 
+      
+          </main>
+
+          <footer class="container">
+            <p>© Acerca de 2023- Yair Mozo</p>
+          </footer>
+        
+
+          <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+
+</body>
+</html>
